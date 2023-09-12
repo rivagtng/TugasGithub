@@ -1,0 +1,61 @@
+body {
+    background-color: #333;
+}
+
+.copyright {
+    font-family: sans-serif;
+    color: white;
+}
+
+.login {
+    background-color: rgb(178, 231, 243);
+    width: 280px;
+    height: 250px;
+    margin: 200px auto 0px auto;
+    position: relative;
+    border: 10px white solid;
+}
+
+.ghost {
+    width: 200px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    outline: 1px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: black;
+    cursor: hand;
+}
+
+.center {
+    margin: 0 auto;
+    width: 200px;
+}
+
+.user {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.userimage {
+    width: 100px;
+}
+
+.btn {
+    width: 120px;
+    padding: 8px;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+
+.xbtnimg {
+    width: 30px;
+    border-radius: 100px;
+    border: 1px solid black;
+    float: right;
+}

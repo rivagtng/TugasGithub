@@ -1,0 +1,95 @@
+body {
+    font-family: Georgia;
+    background-color:#777;
+}
+
+p {
+    margin:0px 0px 0px 0px ;
+    z-index: 3;
+}
+
+#page-wrap {
+    width: 700px;
+    margin:50px auto 0px auto;
+    padding: 0px;
+    background-color: white;
+    z-index: 3;
+}
+
+.p1 {
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.p2 {
+    margin-bottom: 200px;
+    z-index: 3;
+}
+
+#content {
+    width: 460px;
+    margin-right: 20px;
+    padding-left: 20px;
+    border-left: 1px solid #333;
+    height: 500px;
+    float: right;
+    z-index: 3;
+}
+
+#sidebar {
+    width: 180px;
+    float: right;
+    z-index: 3;
+}
+
+#footer {
+    
+    width: 500px;
+    margin: auto;
+    height: 100px;
+    margin: 0px auto;
+    padding-top: 20px;
+    z-index: 3;
+
+}
+#pfooter{
+    text-align: center;
+    background-color: #333;
+    font-family: Verdana;
+    color: white;
+    width: 700px;
+    height: 40px;
+    margin: 0px auto;
+    padding-top: 20px;
+    z-index: 3;
+}
+
+.clear {
+    clear: both;
+}
+
+.kotak {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.kanan {
+    position: absolute;
+    z-index: 3;
+    bottom: 50px;
+    left: 120px;
+    top: 50px;
+    width: 300px;
+    height: 200px;
+}
+
+.kiri {
+    position: absolute;
+    z-index: -1;
+    bottom: 50  px;
+    left: 1000px;
+    top: 50px;
+}
